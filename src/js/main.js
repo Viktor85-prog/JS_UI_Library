@@ -24,3 +24,6 @@ $('div').click(function () {
 
 
 console.log($('.more').eq(0).siblings());
+
+
+$('.findMe').fadeOut(2000)
