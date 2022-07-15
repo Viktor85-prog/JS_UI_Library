@@ -1,29 +1,15 @@
 import './lib/lib';
 import $ from './lib/lib';
 
-// $('.active').on('click', sayHello);
-$('button').on('click', function () {
-    $('div').eq(4).toggleClass('active');
-});
-
-
-$('div').click(function () {
-    console.log($(this).index());
-
+$('#first').on('click', () => {
+    $('div').eq(1).fadeOut(800);
 })
 
-// console.log($('button').html('hi'));
+$('[data-count="second"]').on('click', () => {
+    $('div').eq(2).fadeOut(800);
+})
 
 
-
-// console.log($("div").eq(2).find('.more'))
-// console.log($('div').eq(1))
-
-
-// console.log($('.some').closest('.findMe'))
-
-
-console.log($('.more').eq(0).siblings());
-
-
-$('.findMe').fadeOut(2000)
+$('button').eq(2).on('click', () => {
+    $('.w-500').fadeIn(800);
+})
