@@ -29,3 +29,38 @@ $('.wrap').html(
 );
 
 $('.dropdown-toggle').dropdown();
+
+
+
+$('#trigger').click(() => $('#trigger').createModal({
+    text: {
+        title: 'hi modal',
+        body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit f  qui adquod deserunt molestiae porro.'
+    },
+    btns: {
+        count: 3,
+        settings: [
+            [
+                "Close",
+                ["btn-danger", "mr-10"],
+                true
+            ],
+            [
+                "Save",
+                ['btn-success'],
+                false,
+                () => {
+                    alert('hello');
+                }
+            ],
+            [
+                "btn",
+                ["btn-warning", "ml-10"],
+                false,
+                () => {
+                    alert('hi')
+                }
+            ]
+        ]
+    }
+}));
