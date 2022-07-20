@@ -64,3 +64,7 @@ $('#trigger').click(() => $('#trigger').createModal({
         ]
     }
 }));
+
+
+// $().get('https://jsonplaceholder.typicode.com/posts')
+// .then(res=> console.log(res));
