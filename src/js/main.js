@@ -17,9 +17,9 @@ $('button').eq(2).on('click', () => {
 
 $('.wrap').html(
     `<div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Drop btn</button>
+            <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton3">Drop btn</button>
 
-            <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
+            <div class="dropdown-menu" data-toggle-id="dropdownMenuButton3">
                 <a href="#" class="dropdown-item">wrfwrfwr</a>
                 <a href="#" class="dropdown-item">wrfwrfwr</a>
                 <a href="#" class="dropdown-item">wrfwrfwr</a>
