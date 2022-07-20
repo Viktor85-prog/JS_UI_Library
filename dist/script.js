@@ -105,9 +105,7 @@ _core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.dropdown = function () {
       Object(_core__WEBPACK_IMPORTED_MODULE_0__["default"])(`[data-toggle-id="${id}"]`).fadeToggle(300);
     });
   }
-};
-
-Object(_core__WEBPACK_IMPORTED_MODULE_0__["default"])('.dropdown-toggle').dropdown();
+}; // $('.dropdown-toggle').dropdown();
 
 /***/ }),
 
